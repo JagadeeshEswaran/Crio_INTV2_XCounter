@@ -7,7 +7,7 @@ function App() {
 		<>
 			<h1>Counter App</h1>
 
-			<p>{count}</p>
+			<p>Count: {count}</p>
 
 			<article>
 				<button onClick={() => setCount((prevCount) => prevCount + 1)}>
